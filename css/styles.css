@@ -1,0 +1,418 @@
+/* =========================================
+   AFG Institutional Bloomberg Style Theme
+   ========================================= */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b0f14;
+    color: #e6e9ed;
+    line-height: 1.6;
+
+}
+
+
+
+header {
+
+    background: #05080c;
+    border-bottom: 1px solid #24303d;
+    padding: 20px 0;
+
+}
+
+
+
+.nav-container {
+
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.logo {
+
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+
+
+.logo span {
+
+    color: #c9a227;
+
+}
+
+
+
+nav a {
+
+    color: #cfd6df;
+    text-decoration: none;
+    margin-left: 28px;
+    font-size: 15px;
+
+}
+
+
+
+nav a:hover {
+
+    color: #c9a227;
+
+}
+
+
+
+/* HERO */
+
+
+.hero {
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+
+}
+
+
+
+.hero h1 {
+
+    font-size: 52px;
+    margin-bottom: 15px;
+    color: #ffffff;
+
+}
+
+
+
+.hero h2 {
+
+    font-size: 28px;
+    font-weight: 400;
+    color: #c9a227;
+    margin-bottom: 25px;
+
+}
+
+
+
+.hero p {
+
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    color: #b7c0ca;
+
+}
+
+
+
+.hero-buttons {
+
+    margin-top: 40px;
+
+}
+
+
+
+.button {
+
+    display: inline-block;
+    background: #c9a227;
+    color: #05080c;
+
+    padding: 14px 28px;
+    margin: 10px;
+
+    border-radius: 4px;
+
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+
+
+.button:hover {
+
+    opacity: .85;
+
+}
+
+
+
+/* MARKET PANEL */
+
+
+.market-panel {
+
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 60px auto;
+
+    background: #111821;
+
+    border: 1px solid #263342;
+
+    padding: 35px;
+
+}
+
+
+
+.market-panel h2 {
+
+    text-align: center;
+    margin-bottom: 30px;
+
+    color: #ffffff;
+
+}
+
+
+
+/* METRICS */
+
+
+.metric-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+
+    gap: 20px;
+
+}
+
+
+
+.metric-card {
+
+    background: #151e28;
+
+    border: 1px solid #2b3948;
+
+    padding: 25px;
+
+    text-align: center;
+
+}
+
+
+
+.metric-card h3 {
+
+    color: #9ca9b8;
+
+    font-size: 15px;
+
+    text-transform: uppercase;
+
+}
+
+
+
+.metric-card p {
+
+    font-size: 34px;
+
+    color: #c9a227;
+
+    margin-top: 10px;
+
+}
+
+
+
+/* SECTIONS */
+
+
+.section {
+
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 70px auto;
+
+}
+
+
+
+.section-title {
+
+    text-align: center;
+
+    font-size: 32px;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+/* CARDS */
+
+
+.card-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+    gap: 25px;
+
+}
+
+
+
+.card {
+
+    background: #111821;
+
+    border: 1px solid #263342;
+
+    padding: 30px;
+
+}
+
+
+
+.card h3 {
+
+    color: #c9a227;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.card p {
+
+    color: #b7c0ca;
+
+}
+
+
+
+/* CTA */
+
+
+.cta {
+
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 80px auto;
+
+    text-align: center;
+
+    background: #111821;
+
+    border: 1px solid #263342;
+
+    padding: 50px;
+
+}
+
+
+
+.cta h2 {
+
+    font-size: 36px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+
+    background: #05080c;
+
+    border-top: 1px solid #24303d;
+
+    text-align: center;
+
+    padding: 30px;
+
+    color: #7f8b99;
+
+    margin-top: 80px;
+
+}
+
+
+
+/* MOBILE */
+
+
+@media(max-width:800px){
+
+
+.nav-container {
+
+    flex-direction: column;
+
+}
+
+
+nav {
+
+    margin-top:20px;
+
+}
+
+
+nav a {
+
+    display:block;
+
+    margin:12px;
+
+}
+
+
+.hero h1 {
+
+    font-size:38px;
+
+}
+
+
+.hero h2 {
+
+    font-size:22px;
+
+}
+
+
+}
+
