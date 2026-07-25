@@ -416,3 +416,38 @@ nav a {
 
 }
 
+/* Contact Form Styling */
+
+.cta form {
+    max-width: 600px;
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.cta input,
+.cta textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.cta textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.cta button {
+    width: 180px;
+    margin: 10px auto 0;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
