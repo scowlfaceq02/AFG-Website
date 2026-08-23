@@ -220,24 +220,7 @@ nav a[aria-current="page"] {
     border-color: #465667;
     transform: translateY(-3px);
 }
-.card:nth-child(3) {
-    background: #151e28;
-    border-color: #c9a227;
-    position: relative;
-}
 
-.card:nth-child(3)::before {
-    content: "PREMIUM";
-    position: absolute;
-    top: -11px;
-    right: 20px;
-    background: #c9a227;
-    color: #05080c;
-    padding: 4px 10px;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
 
 .card h3 {
     color: #ffffff;
